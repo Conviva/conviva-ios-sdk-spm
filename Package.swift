@@ -1,6 +1,5 @@
 // swift-tools-version:5.3
 // The swift-tools-version declares the minimum version of Swift required to build this package.
-
 import PackageDescription
 
 let package = Package(
@@ -22,7 +21,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ConvivaSDK",
-            url: "https://github.com/Conviva/ConvivaSDK/raw/4.0.31/Framework/ConvivaSDK.xcframework.zip",
-            checksum: "a0192c07856d5bf9c9e036efbb41feb03684f028298b146793ce9d40b8509a6b")
+            url: "https://github.com/Conviva/ConvivaSDK/raw/4.0.32/Framework/ConvivaSDK.xcframework.zip",
+            checksum: "9f4d61204351d3e13599eda8219159c15fd15063168036dbf16ab3e73aa58607")
     ]
 )
